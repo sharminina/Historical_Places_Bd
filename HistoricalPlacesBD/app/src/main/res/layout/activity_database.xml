@@ -1,0 +1,157 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context="historical.com.example.ahmed.historicalplacesbd.DatabaseActivity">
+
+    <ImageView
+        android:id="@+id/image_songshod"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/assemblyvobon"/>
+    <ImageView
+        android:id="@+id/image_lalbag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/lalbagh_fort"/>
+
+    <ImageView
+        android:id="@+id/image_armeniium"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/armanium"/>
+
+    <ImageView
+        android:id="@+id/image_sriti"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/sritisoudho"/>
+    <ImageView
+        android:id="@+id/image_shahidminar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shahidminar"/>
+    <ImageView
+        android:id="@+id/image_carzon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/carzonhall"/>
+    <ImageView
+        android:id="@+id/image_raer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rayerbajar"
+
+        />
+    <ImageView
+        android:id="@+id/image_budhijibi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+  android:background="@drawable/graveint"/>
+    <ImageView
+        android:id="@+id/image_7mosque"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:background="@drawable/saatmosque" />
+    <ImageView
+        android:id="@+id/image_mujibtomb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:background="@drawable/sheikh_tomb"/>
+    <ImageView
+        android:id="@+id/image_dhakeshori"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/dhakeshwari_mondir"
+      />
+    <ImageView
+        android:id="@+id/image_ethono"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/chittagong_ethnological_museum"
+        />
+    <ImageView
+        android:id="@+id/image_jointa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/jaintapur"
+        />
+    <ImageView
+        android:id="@+id/image_mujibnogor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/mujibnagar_memorial"
+        />
+    <ImageView
+        android:id="@+id/image_sitaram"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/sitarampur"
+        />
+    <ImageView
+        android:id="@+id/image_vobani"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ranivobani"
+        />
+    <ImageView
+        android:id="@+id/image_gonovbn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/uttora_gonovobon"
+        />
+    <ImageView
+        android:id="@+id/image_smallsona"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/choto_sona"
+        />
+    <ImageView
+        android:id="@+id/image_chatmohor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/chatmohor_shahi_mosque"
+        />
+    <ImageView
+        android:id="@+id/image_elli"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/elliot_bridge"
+        />
+    <ImageView
+        android:id="@+id/image_mkhdum"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shahmakhdum"
+        />
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/name_txt"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+        android:id="@+id/txt"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+</ScrollView>
+
+</RelativeLayout>
+

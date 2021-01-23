@@ -1,0 +1,77 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_back">
+
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+
+    tools:context="historical.com.example.ahmed.historicalplacesbd.dhakadiv_five">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#f6f68c"
+        android:layout_marginTop="10dp"
+        android:text="Historical Places of Dhaka Division"
+        android:textSize="25sp"/>
+    <ImageButton
+        android:id="@+id/shashi_lodge"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shashi"/>
+
+
+    <ImageButton
+        android:id="@+id/war_bot"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/wari"/>
+    <ImageButton
+        android:id="@+id/dhanbari"
+        android:layout_width="250dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/dhan"/>
+    <ImageButton
+        android:id="@+id/star"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/star"/>
+    <ImageButton
+        android:id="@+id/dhakesh"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/dhakeshwari"/>
+    <ImageButton
+        android:id="@+id/gotomain3"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/maintogo"/>
+
+
+
+
+
+</LinearLayout>
+
+</ScrollView>

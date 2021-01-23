@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="historical.com.example.ahmed.historicalplacesbd" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!--
+ The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pngp"
+        android:label="Historical Places BD"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Division"
+            android:label="@string/title_activity_division" >
+        </activity>
+        <activity
+            android:name=".Dhakadiv"
+            android:label="@string/title_activity_dhakadiv" >
+        </activity>
+        <activity
+            android:name=".Sylhetdiv"
+            android:label="@string/title_activity_sylhetdiv" >
+        </activity>
+        <activity
+            android:name=".Rajshahidiv"
+            android:label="@string/title_activity_rajbaridiv" >
+        </activity>
+        <activity
+            android:name=".Khulnadiv"
+            android:label="@string/title_activity_khulnadiv" >
+        </activity>
+        <activity
+            android:name=".Barishaldiv"
+            android:label="@string/title_activity_barishaldiv" >
+        </activity>
+        <activity
+            android:name=".Chittagongdiv"
+            android:label="@string/title_activity_chittagongdiv" >
+        </activity>
+        <activity
+            android:name=".Rangpurdiv"
+            android:label="@string/title_activity_rangpurdiv" >
+        </activity>
+        <activity
+            android:name=".Dhakadivtwo"
+            android:label="@string/title_activity_dhakadivtwo" >
+        </activity>
+        <activity
+            android:name=".Aboutapp"
+            android:label="@string/title_activity_aboutapp" >
+        </activity>
+        <activity
+            android:name=".Aboutus"
+            android:label="@string/title_activity_aboutus" >
+        </activity>
+        <activity
+            android:name=".dhakathree"
+            android:label="@string/title_activity_dhakathree" >
+        </activity>
+        <activity
+            android:name=".dhakadivfour"
+            android:label="@string/title_activity_dhakadivfour" >
+        </activity>
+        <activity
+            android:name=".dhakadiv_five"
+            android:label="@string/title_activity_dhakadiv_five" >
+        </activity>
+        <activity
+            android:name=".chittadiv_two"
+            android:label="@string/title_activity_chittadiv_two" >
+        </activity>
+        <activity
+            android:name=".rajshahidiv_two"
+            android:label="@string/title_activity_rajshahidiv_two" >
+        </activity>
+        <activity
+            android:name=".rajdivthree"
+            android:label="@string/title_activity_rajdivthree" >
+        </activity>
+        <activity
+            android:name=".khulnadiv_two"
+            android:label="@string/title_activity_khulnadiv_two" >
+        </activity>
+        <activity
+            android:name=".Rayerkathi"
+            android:label="@string/title_activity_rayerkathi" >
+        </activity>
+        <activity
+            android:name=".Sujabadfort"
+            android:label="@string/title_activity_sujabadmosque" >
+        </activity>
+        <activity
+            android:name=".AtiaMosque"
+            android:label="@string/title_activity_atia_mosque" >
+        </activity>
+        <activity
+            android:name=".SujaMosque"
+            android:label="@string/title_activity_suja_mosque" >
+        </activity>
+        <activity
+            android:name=".SecondWorldWar"
+            android:label="@string/title_activity_second_world_war" >
+        </activity>
+        <activity
+            android:name=".AdinathTemple"
+            android:label="@string/title_activity_adinath_temple" >
+        </activity>
+        <activity
+            android:name=".BijoySinghDighi"
+            android:label="@string/title_activity_bijoy_singh_dighi" >
+        </activity>
+        <activity
+            android:name=".BajraShahi"
+            android:label="@string/title_activity_bajra_shahi" >
+        </activity>
+        <activity
+            android:name=".GandhiAshram"
+            android:label="@string/title_activity_gandhi_ashram" >
+        </activity>
+        <activity
+            android:name=".LalmaiMOinamoti"
+            android:label="@string/title_activity_lalmai_moinamoti" >
+        </activity>
+        <activity
+            android:name=".KhanJahan"
+            android:label="@string/title_activity_khan_jahan" >
+        </activity>
+        <activity
+            android:name=".LalonMajar"
+            android:label="@string/title_activity_lalon_majar" >
+        </activity>
+        <activity
+            android:name=".MichaelModhu"
+            android:label="@string/title_activity_michael_modhu" >
+        </activity>
+        <activity
+            android:name=".RabindraKuthibari"
+            android:label="@string/title_activity_rabindra_kuthibari" >
+        </activity>
+        <activity
+            android:name=".ShaitGombuj"
+            android:label="@string/title_activity_shait_gombuj" >
+        </activity>
+        <activity
+            android:name=".SonaMosque"
+            android:label="@string/title_activity_sona_mosque" >
+        </activity>
+        <activity
+            android:name=".TetuliaJame"
+            android:label="@string/title_activity_tetulia_jame" >
+        </activity>
+        <activity
+            android:name=".BijoysinghPalace"
+            android:label="@string/title_activity_bijoysingh_palace" >
+        </activity>
+        <activity
+            android:name=".ShahJalal"
+            android:label="@string/title_activity_shah_jalal" >
+        </activity>
+        <activity
+            android:name=".ShahPoran"
+            android:label="@string/title_activity_shah_poran" >
+        </activity>
+        <activity
+            android:name=".BaroDurai"
+            android:label="@string/title_activity_baro_durai" >
+        </activity>
+        <activity
+            android:name=".Bibichini"
+            android:label="@string/title_activity_bibichini" >
+        </activity>
+        <activity
+            android:name=".TajhatPalace"
+            android:label="@string/title_activity_tajhat_palace" >
+        </activity>
+        <activity
+            android:name=".Kantejew"
+            android:label="@string/title_activity_kantejew" >
+        </activity>
+        <activity
+            android:name=".Nayabad"
+            android:label="@string/title_activity_nayabad" >
+        </activity>
+        <activity
+            android:name=".Balkhi"
+            android:label="@string/title_activity_balkhi" >
+        </activity>
+        <activity
+            android:name=".Bagha"
+            android:label="@string/title_activity_bagha" >
+        </activity>
+        <activity
+            android:name=".Behula"
+            android:label="@string/title_activity_behula" >
+        </activity>
+        <activity
+            android:name=".Mahasthangarh"
+            android:label="@string/title_activity_mahasthangarh" >
+        </activity>
+        <activity
+            android:name=".VasuVihar"
+            android:label="@string/title_activity_vasu_vihar" >
+        </activity>
+        <activity
+            android:name=".GarudPillar"
+            android:label="@string/title_activity_garud_pillar" >
+        </activity>
+        <activity
+            android:name=".SongshodVobon"
+            android:label="@string/title_activity_songshod_vobon" >
+        </activity>
+        <activity
+            android:name=".BoldhaGarden"
+            android:label="@string/title_activity_boldha_garden" >
+        </activity>
+        <activity
+            android:name=".MuktijudhoJadughor"
+            android:label="@string/title_activity_muktijudho_jadughor" >
+        </activity>
+        <activity
+            android:name=".Sonargaon"
+            android:label="@string/title_activity_sonargaon" >
+        </activity>
+        <activity
+            android:name=".IdrakpurFort"
+            android:label="@string/title_activity_idrakpur_fort" >
+        </activity>
+        <activity
+            android:name=".AhsanMonzill"
+            android:label="@string/title_activity_ahsan_monzill" >
+        </activity>
+        <activity
+            android:name=".Shohrowardi"
+            android:label="@string/title_activity_shohrowardi" >
+        </activity>
+        <activity
+            android:name=".Budhijibi"
+            android:label="@string/title_activity_budhijibi" >
+        </activity>
+        <activity
+            android:name=".Josimuddin"
+            android:label="@string/title_activity_josimuddin" >
+        </activity>
+        <activity
+            android:name=".DighirparMosque"
+            android:label="@string/title_activity_dighirpar_mosque" >
+        </activity>
+        <activity
+            android:name=".JangalbariFort"
+            android:label="@string/title_activity_jangalbari_fort" >
+        </activity>
+        <activity
+            android:name=".ShahMahmudMosque"
+            android:label="@string/title_activity_shah_mahmud_mosque" >
+        </activity>
+        <activity
+            android:name=".ShashiLodge"
+            android:label="@string/title_activity_shashi_lodge" >
+        </activity>
+        <activity
+            android:name=".WariBoteshwar"
+            android:label="@string/title_activity_wari_boteshwar" >
+        </activity>
+        <activity
+            android:name=".DhanbariMosque"
+            android:label="@string/title_activity_dhanbari_mosque" >
+        </activity>
+        <activity
+            android:name=".StarMosque"
+            android:label="@string/title_activity_star_mosque" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBizKqaINbzctkwx3bGU-brdU4UNIfjbBc" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" >
+        </activity>
+        <activity
+            android:name=".HistoricalPlacesBD"
+            android:label="@string/title_activity_splashed" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Rajshahi"
+            android:label="@string/title_activity_rajshahi" >
+        </activity>
+        <activity
+            android:name=".DatabaseActivity"
+            android:label="@string/title_activity_database" >
+        </activity>
+    </application>
+
+</manifest>

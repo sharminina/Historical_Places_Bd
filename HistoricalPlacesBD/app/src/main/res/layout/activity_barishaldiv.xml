@@ -1,0 +1,53 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_back">
+    
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+
+    tools:context="historical.com.example.ahmed.historicalplacesbd.Barishaldiv">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:text="Historical Places of Barishal division"
+    android:textSize="30sp"
+    android:textColor="#f6f68c"
+    android:textStyle="bold"
+    android:textColorHighlight="@color/accent_material_light"/>
+
+    <ImageButton
+        android:id="@+id/rk"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/rayerkathi"/>
+    <ImageButton
+        android:id="@+id/suja"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/sujabad"/>
+    <ImageButton
+        android:id="@+id/gotomain12"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/maintogo"/>
+
+</LinearLayout>
+</ScrollView>
+
